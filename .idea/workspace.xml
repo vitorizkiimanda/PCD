@@ -33,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tomat_backgroundRemovalPackage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tomat_backgroundRemovalPackage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomat_backgroundRemovalPackage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="231">
+              <caret line="44" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tomat_imgToData.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -48,8 +60,8 @@
       <file leaf-file-name="tomat_rename.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomat_rename.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="68" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -74,18 +86,6 @@
               <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="30" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prak13_fourier dft.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prak13_fourier dft.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,6 +165,7 @@
         <option value="$PROJECT_DIR$/tomat_backgroundRemoval.py" />
         <option value="$PROJECT_DIR$/tomat_rename.py" />
         <option value="$PROJECT_DIR$/tomat_backgroundRemovalPackage.py" />
+        <option value="$PROJECT_DIR$/tomat_imgToData.py" />
       </list>
     </option>
   </component>
@@ -220,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tomat_backgroundRemovalPackage">
+  <component name="RunManager" selected="Python.tomat_imgToData">
     <configuration name="prak13_fourier dft" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,24 +235,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PCD" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prak13_fourier dft.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="prak13_fourier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PCD" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prak13_fourier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,6 +276,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="tomat_imgToData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PCD" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tomat_imgToData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="tomat_rename" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,18 +314,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.tomat_backgroundRemoval" />
-      <item index="1" class="java.lang.String" itemvalue="Python.prak13_fourier" />
-      <item index="2" class="java.lang.String" itemvalue="Python.prak13_fourier dft" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tomat_backgroundRemovalPackage" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tomat_rename" />
+      <item index="1" class="java.lang.String" itemvalue="Python.prak13_fourier dft" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tomat_backgroundRemovalPackage" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tomat_rename" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tomat_imgToData" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tomat_backgroundRemovalPackage" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tomat_rename" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tomat_backgroundRemoval" />
-        <item index="3" class="java.lang.String" itemvalue="Python.prak13_fourier dft" />
-        <item index="4" class="java.lang.String" itemvalue="Python.prak13_fourier" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tomat_imgToData" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tomat_backgroundRemovalPackage" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tomat_rename" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tomat_backgroundRemoval" />
+        <item index="4" class="java.lang.String" itemvalue="Python.prak13_fourier dft" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +352,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18305269" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -375,13 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LKP 8 G64150093 Vito Rizki Imanda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LKP5 G64150093 VIto Rizki Imanda.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -674,7 +668,7 @@
         <state relative-caret-position="320">
           <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -743,20 +737,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tomat_rename.py">
+    <entry file="file://$PROJECT_DIR$/tomat_backgroundRemovalPackage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="44" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tomat_backgroundRemovalPackage.py">
+    <entry file="file://$PROJECT_DIR$/tomat_rename.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        <state relative-caret-position="320">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
