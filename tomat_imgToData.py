@@ -40,10 +40,11 @@ for imgname in imgnames:
     M = merah
     J = jingga
     H = hijau
+    Total = M + J + H
 
-    M = float(M / (M + J + H))
-    J = float(J / (M + J + H))
-    H = float(H / (M + J + H))
+    M = M / Total
+    J = J /Total
+    H = H/Total
 
     # data = imgname + "," + merah + "," + hijau + "\n"
     data = '%s,%f,%f,%f' % (imgname, M,J,H)
