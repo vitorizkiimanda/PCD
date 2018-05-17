@@ -25,7 +25,7 @@ for imgname in imgnames:
     for i in range(0, row):
         for j in range(0, col):
             b, g, r = img[i, j]
-            print(b)
+            print(b,g,r)
             if(b & g  & r):
                 if(r-g > 90):
                     # print("red")
@@ -37,9 +37,18 @@ for imgname in imgnames:
                     # print("green")
                     hijau = hijau + 1
 
+    M = merah
+    J = jingga
+    H = hijau
+
+    M = float(M / (M + J + H))
+    J = float(J / (M + J + H))
+    H = float(H / (M + J + H))
+
     # data = imgname + "," + merah + "," + hijau + "\n"
-    data = '%s,%d,%d,%d' % (imgname, merah,jingga,hijau)
+    data = '%s,%f,%f,%f' % (imgname, M,J,H)
     data = data + "\n"
+    print(data)
     csv.write(data)
 
 cv2.waitKey(0)
