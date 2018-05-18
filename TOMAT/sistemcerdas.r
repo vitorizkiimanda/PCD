@@ -1,6 +1,7 @@
 #####################################
 ###decision tree : dibawah + randomForest + randomForest
 #membagi data
+library(readxl)
 tomat <- read_excel("E:/VRI/IPB/kuliah/Sem6/PCD/PCD/TOMAT/tomatKematangan.xlsx")
 tomat$kematangan <- as.factor(tomat$kematangan)
 set.seed(1234)#ini buat ngerandom

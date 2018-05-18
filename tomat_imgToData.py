@@ -15,8 +15,13 @@ for imgname in imgnames:
 
     #deklarasi variabel counter warna
     merah = 0
-    jingga = 0
+    biru = 0
     hijau = 0
+
+    merahTotal = 0
+    biruTotal = 0
+    hijauTotal = 0
+
 
     #menghitung proporsional warna
     ## merah , orange, hijau
@@ -26,28 +31,24 @@ for imgname in imgnames:
         for j in range(0, col):
             b, g, r = img[i, j]
             print(b,g,r)
-            if(b & g  & r):
-                if(r-g > 90):
-                    # print("red")
-                    merah = merah + 1
-                elif(r-g >50):
-                    # print("orange")
-                    jingga = jingga + 1
-                else:
-                    # print("green")
-                    hijau = hijau + 1
+            merahTotal = merahTotal + r
+            hijauTotal = hijauTotal + g
+            biruTotal = biruTotal + b
 
-    M = merah
-    J = jingga
-    H = hijau
-    Total = M + J + H
+            if(r): merah = merah + 1
+            if(g): hijau = hijau + 1
+            if(b): biru = biru + 1
 
-    M = M / Total
-    J = J /Total
-    H = H/Total
+    M = merahTotal
+    B = biruTotal
+    H = hijauTotal
+
+    M = M / merah
+    B = B / biru
+    H = H/ hijau
 
     # data = imgname + "," + merah + "," + hijau + "\n"
-    data = '%s,%f,%f,%f' % (imgname, M,J,H)
+    data = '%s,%f,%f,%f' % (imgname, M,H,B)
     data = data + "\n"
     print(data)
     csv.write(data)
