@@ -1,0 +1,5 @@
+# Pandas is used for data manipulation
+import pandas as pd
+import xlrd
+# Read in data and display first 5 rows
+xl = pd.ExcelFile("tomatKematangan.xlsx")
