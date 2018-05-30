@@ -12,6 +12,7 @@ from sklearn.metrics import confusion_matrix
 dataKematangan = pd.read_csv('tomatKematangan.csv')
 dataBerat = pd.read_csv('tomatBerat.csv')
 
+
 #split data test dan data train
 trainKematangan=dataKematangan.sample(frac=0.8,random_state=200)
 testKematangan= dataKematangan.sample(frac=0.2,random_state=200)
@@ -43,12 +44,11 @@ testKematangan=testKematangan.drop(["kematangan"], axis=1)
 beratTestAsli = testBerat["berat"]
 testBerat=testBerat.drop(["berat"], axis=1)
 
-
 ####prediksi data test menggunakan model random forest
 kematanganPredict = modelKematangan.predict(testKematangan)  #nnti ini test : inputan baru
 beratPredict = modelBerat.predict(testBerat)
-print(beratPredict)
-print(beratTestAsli)
+
+print(testBerat)
 
 ####confusion matrix
 print(confusion_matrix(kematanganTestAsli, kematanganPredict))
@@ -61,7 +61,7 @@ filename = 'modelTomatKematangan.sav'
 pickle.dump(modelKematangan, open(filename, 'wb'))
 
 filename = 'modelTomatBerat.sav'
-pickle.dump(modelKematangan, open(filename, 'wb'))
+pickle.dump(modelBerat, open(filename, 'wb'))
 
 
 
@@ -69,5 +69,5 @@ pickle.dump(modelKematangan, open(filename, 'wb'))
 
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
-kematanganPredict = loaded_model.predict(testKematangan)  #nnti ini test : inputan baru
-#print(kematanganPredict)
+beratPredict = loaded_model.predict(testBerat)  #nnti ini test : inputan baru
+print(beratPredict)
