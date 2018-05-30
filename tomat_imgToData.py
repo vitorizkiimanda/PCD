@@ -8,9 +8,9 @@ import os,sys
 from random import randint
 
 #make CSV
-csv = open("tomatKematangan.csv", "w")
+csv = open("tomat.csv", "w")
 
-header = '%s,%s,%s,%s,%s,%s,%s,%s,%s' % ("name", "red", "green", "blue", "hue", "saturation", "value", "kematangan","berat")
+header = '%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value", "kematangan","berat")
 header = header + "\n"
 #print(header)
 csv.write(header)
@@ -149,7 +149,7 @@ for nomorFolder in range(1, 20):
             Berat = randint(37,42)
 
         # data = imgname + "," + merah + "," + hijau + "\n"
-        data = '%s,%f,%f,%f,%f,%f,%f,%d,%d' % (imgname, M,H,B,H2,S,V, Kematangan, Berat)
+        data = '%f,%f,%f,%f,%f,%f,%d,%d' % (M,H,B,H2,S,V, Kematangan, Berat)
         data = data + "\n"
         print(nomorFolder)
         csv.write(data)
