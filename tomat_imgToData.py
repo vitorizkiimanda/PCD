@@ -70,7 +70,8 @@ for nomorFolder in range(1, 20):
         H = H/ hijau
 
 
-        totalPixel = M + B + H
+        totalPixel = merah + biru + hijau
+        totalPixel = totalPixel/(row*col)
 
         img = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 
@@ -156,7 +157,7 @@ for nomorFolder in range(1, 20):
 
         # data = imgname + "," + merah + "," + hijau + "\n"
 
-        data = '%d,%d' % (totalPixel, Berat)
+        data = '%f,%d' % (totalPixel, Berat)
 #        data = '%f,%f,%f,%f,%f,%f,%d' % (M,H,B,H2,S,V,Kematangan)
         data = data + "\n"
         print(nomorFolder)
