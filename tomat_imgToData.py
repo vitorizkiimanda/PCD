@@ -10,7 +10,7 @@ from random import randint
 #make CSV
 csv = open("tomat.csv", "w")
 
-header = '%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value","berat", "kematangan")
+header = '%s,%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value","pixels","berat", "kematangan")
 header = header + "\n"
 #print(header)
 #csv.write(header)
@@ -67,6 +67,9 @@ for nomorFolder in range(1, 20):
         B = B / biru
         H = H/ hijau
 
+
+        totalPixel = M + B + H
+
         img = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 
         for i in range(0, row):
@@ -88,6 +91,7 @@ for nomorFolder in range(1, 20):
         H2 = H2 / hue
         S = S / saturation
         V = V / value
+
 
 
         if(nomorFolder==1):
@@ -149,7 +153,7 @@ for nomorFolder in range(1, 20):
             Berat = randint(37,42)
 
         # data = imgname + "," + merah + "," + hijau + "\n"
-        data = '%f,%f,%f,%f,%f,%f,%d,%d' % (M,H,B,H2,S,V, Berat,Kematangan)
+        data = '%f,%f,%f,%f,%f,%f,%d,%d,%d' % (M,H,B,H2,S,V, totalPixel, Berat,Kematangan)
         data = data + "\n"
         print(nomorFolder)
         csv.write(data)

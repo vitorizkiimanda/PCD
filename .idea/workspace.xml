@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a362809-74bd-42bd-a805-d2d5aa48af6f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/tomat.csv" afterPath="$PROJECT_DIR$/tomat.csv" />
-      <change beforePath="$PROJECT_DIR$/tomatKematangan.csv" afterPath="" />
       <change beforePath="$PROJECT_DIR$/tomat_imgToData.py" afterPath="$PROJECT_DIR$/tomat_imgToData.py" />
-      <change beforePath="$PROJECT_DIR$/tomat_randomForest" afterPath="$PROJECT_DIR$/tomat_randomForest" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +51,8 @@
       <file leaf-file-name="tomat_imgToData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1101">
-              <caret line="151" column="64" lean-forward="false" selection-start-line="151" selection-start-column="64" selection-end-line="151" selection-end-column="64" />
+            <state relative-caret-position="300">
+              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -66,8 +63,8 @@
       <file leaf-file-name="tomat_randomForest" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tomat_randomForest">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="198" column="39" lean-forward="true" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+            <state relative-caret-position="161">
+              <caret line="199" column="37" lean-forward="true" selection-start-line="199" selection-start-column="37" selection-end-line="199" selection-end-column="37" />
               <folding>
                 <element signature="e#43#66#0" expanded="true" />
               </folding>
@@ -117,6 +114,11 @@
       <find>ratio</find>
       <find>subsample</find>
       <find>sample</find>
+      <find>random_forest</find>
+      <find>evaluate_algorithm</find>
+      <find>algorithm</find>
+      <find>predictions</find>
+      <find>eva</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,8 +147,8 @@
         <option value="$PROJECT_DIR$/prak13_wavelet.py" />
         <option value="$PROJECT_DIR$/prak13_wavelet2d.py" />
         <option value="$PROJECT_DIR$/tomat_svm.py" />
-        <option value="$PROJECT_DIR$/tomat_imgToData.py" />
         <option value="$PROJECT_DIR$/tomat_randomForest" />
+        <option value="$PROJECT_DIR$/tomat_imgToData.py" />
       </list>
     </option>
   </component>
@@ -714,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1101">
-          <caret line="151" column="64" lean-forward="false" selection-start-line="151" selection-start-column="64" selection-end-line="151" selection-end-column="64" />
+        <state relative-caret-position="300">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -724,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tomat_randomForest">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="198" column="39" lean-forward="true" selection-start-line="198" selection-start-column="39" selection-end-line="198" selection-end-column="39" />
+        <state relative-caret-position="161">
+          <caret line="199" column="37" lean-forward="true" selection-start-line="199" selection-start-column="37" selection-end-line="199" selection-end-column="37" />
           <folding>
             <element signature="e#43#66#0" expanded="true" />
           </folding>
