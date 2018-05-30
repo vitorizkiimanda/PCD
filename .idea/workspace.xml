@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a362809-74bd-42bd-a805-d2d5aa48af6f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tomat.csv" afterPath="$PROJECT_DIR$/tomat.csv" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/tomat_imgToData.py" afterPath="$PROJECT_DIR$/tomat_imgToData.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tomat_imgToData.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tomat_imgToData.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="193">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tomat_randomForest" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tomat_randomForest" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomat_randomForest">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="199" column="37" lean-forward="true" selection-start-line="199" selection-start-column="37" selection-end-line="199" selection-end-column="37" />
+            <state relative-caret-position="321">
+              <caret line="207" column="17" lean-forward="true" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
               <folding>
                 <element signature="e#43#66#0" expanded="true" />
               </folding>
@@ -110,7 +110,6 @@
       <find>grayscale</find>
       <find>kernel</find>
       <find>print</find>
-      <find>pred</find>
       <find>ratio</find>
       <find>subsample</find>
       <find>sample</find>
@@ -119,6 +118,10 @@
       <find>algorithm</find>
       <find>predictions</find>
       <find>eva</find>
+      <find>list</find>
+      <find>pred</find>
+      <find>predicted</find>
+      <find>accu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tomat_randomForest">
+  <component name="RunManager" selected="Python.tomat_imgToData">
     <configuration name="prak13_wavelet" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,8 +306,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tomat_randomForest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tomat_imgToData" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tomat_imgToData" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tomat_randomForest" />
         <item index="2" class="java.lang.String" itemvalue="Python.prak13_wavelet2d" />
         <item index="3" class="java.lang.String" itemvalue="Python.prak13_wavelet" />
         <item index="4" class="java.lang.String" itemvalue="Python.tomat_backgroundRemovalPackage" />
@@ -336,7 +339,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -714,22 +717,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
+    <entry file="file://$PROJECT_DIR$/tomat_randomForest">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="321">
+          <caret line="207" column="17" lean-forward="true" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#43#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tomat_randomForest">
+    <entry file="file://$PROJECT_DIR$/tomat_imgToData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="199" column="37" lean-forward="true" selection-start-line="199" selection-start-column="37" selection-end-line="199" selection-end-column="37" />
+        <state relative-caret-position="193">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="e#43#66#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
