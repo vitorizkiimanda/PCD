@@ -8,14 +8,14 @@ import os,sys
 from random import randint
 
 #make CSV
-csv = open("tomatBerat.csv", "w")
+csv = open("tomatKematangan.csv", "w")
 
-header = '%s,%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value","pixels","berat", "kematangan")
+#header = '%s,%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value","pixels","berat", "kematangan")
 header = '%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value", "kematangan")
-header = '%s,%s' % ("pixels","berat")
+#header = '%s,%s' % ("pixels","berat")
 header = header + "\n"
 #print(header)
-#csv.write(header)
+csv.write(header)
 
 #loop all folder
 for nomorFolder in range(1, 20):
@@ -157,8 +157,8 @@ for nomorFolder in range(1, 20):
 
         # data = imgname + "," + merah + "," + hijau + "\n"
 
-        data = '%f,%d' % (totalPixel, Berat)
-#        data = '%f,%f,%f,%f,%f,%f,%d' % (M,H,B,H2,S,V,Kematangan)
+        #data = '%f,%d' % (totalPixel, Berat)
+        data = '%f,%f,%f,%f,%f,%f,%d' % (M,H,B,H2,S,V,Kematangan)
         data = data + "\n"
         print(nomorFolder)
         csv.write(data)
