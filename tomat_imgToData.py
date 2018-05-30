@@ -10,10 +10,10 @@ from random import randint
 #make CSV
 csv = open("tomat.csv", "w")
 
-header = '%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value", "kematangan","berat")
+header = '%s,%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value","berat", "kematangan")
 header = header + "\n"
 #print(header)
-csv.write(header)
+#csv.write(header)
 
 #loop all folder
 for nomorFolder in range(1, 20):
@@ -149,7 +149,7 @@ for nomorFolder in range(1, 20):
             Berat = randint(37,42)
 
         # data = imgname + "," + merah + "," + hijau + "\n"
-        data = '%f,%f,%f,%f,%f,%f,%d,%d' % (M,H,B,H2,S,V, Kematangan, Berat)
+        data = '%f,%f,%f,%f,%f,%f,%d,%d' % (M,H,B,H2,S,V, Berat,Kematangan)
         data = data + "\n"
         print(nomorFolder)
         csv.write(data)
