@@ -29,10 +29,10 @@ trainBerat = trainBerat.drop(["berat"], axis=1)
 
 
 #membuat model menggunakan random forest
-modelKematangan = RandomForestClassifier(max_depth=10, random_state=0)
+modelKematangan = RandomForestClassifier()
 modelKematangan.fit(trainKematangan,kematanganTrain)
 
-modelBerat = RandomForestRegressor(max_depth=20, random_state=0)
+modelBerat = RandomForestRegressor()
 modelBerat.fit(trainBerat,beratTrain)
 
 
