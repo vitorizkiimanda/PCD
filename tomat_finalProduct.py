@@ -82,7 +82,7 @@ H = H/ hijau
 
 totalPixel = merah + biru + hijau
 totalPixel = totalPixel/(row*col)
-print(totalPixel)
+#print(totalPixel)
 
 final = cv2.cvtColor(final, cv2.COLOR_RGB2HSV)
 
@@ -113,7 +113,7 @@ header = header + "\n"
 csv.write(header)
 
 dataKematangan = ([M,H,B,H2,S,V],[M,H,B,H2,S,V])
-print(dataKematangan)
+#print(dataKematangan)
 dataBerat = ([totalPixel],[totalPixel])
 
 ##########prediction
@@ -127,7 +127,15 @@ modelKematangan = pickle.load(open(filename, 'rb'))
 
 #prediction
 kematanganPredict = modelKematangan.predict(dataKematangan)  #nnti ini test : inputan baru
-print(kematanganPredict[0])
+
+if(kematanganPredict[0]==1): kematangan = "Sangat Matang"
+elif(kematanganPredict[0]==2): kematangan = "Matang"
+elif(kematanganPredict[0]==3): kematangan = "Cukup Matang"
+elif(kematanganPredict[0]==4): kematangan = "Setangah Matang"
+elif(kematanganPredict[0]==5): kematangan = "Mentah"
+
+print("prediksi tomat","'",imgname,"'")
+print("kematangan :",kematangan)
 
 beratPredict = modelBerat.predict(dataBerat)  #nnti ini test : inputan baru
-print(beratPredict[0])
+print("berat",beratPredict[0],"gram")
