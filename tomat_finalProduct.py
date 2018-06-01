@@ -4,7 +4,6 @@ from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 import numpy as np
 import cv2
-import vri_pcd as vri
 
 import pickle
 import time
@@ -12,7 +11,7 @@ import time
 from sklearn.metrics import confusion_matrix
 
 #########image preparation
-imgname = "TOMAT/tomat_test/3_1.jpg"
+imgname = "TOMAT/tomat_test/1_1.jpg"
 img = cv2.imread(imgname)
 
 # resizing
