@@ -4,6 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 import pandas as pd
 import numpy as np
 import cv2
+import vri_pcd as vri
 
 import pickle
 import time
