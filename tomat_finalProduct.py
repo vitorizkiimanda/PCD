@@ -12,7 +12,7 @@ import time
 from sklearn.metrics import confusion_matrix
 
 #########image preparation
-imgname = "TOMAT/tomat_test/3_1.jpg"
+imgname = "TOMAT/tomat_test/1_1.jpg"
 img = cv2.imread(imgname)
 
 # resizing
@@ -32,8 +32,8 @@ final = vri.substract(img, biner_threshold)
 
 #cv2.imshow('mask', erotion3)
 #cv2.imshow("masking result",final)
-#v2.imshow("original",img)
-#v2.waitKey()
+#cv2.imshow("original",img)
+#cv2.waitKey()
 
 
 #######imgage processing
@@ -61,7 +61,7 @@ row, col, ch = img.shape
 output = np.zeros((row, col, 3), np.uint8)
 for i in range(0, row):
     for j in range(0, col):
-        b, g, r = img[i, j]
+        b, g, r = final[i, j]
         #print(b,g,r)
         merahTotal = merahTotal + r
         hijauTotal = hijauTotal + g
@@ -84,11 +84,11 @@ totalPixel = merah + biru + hijau
 totalPixel = totalPixel/(row*col)
 print(totalPixel)
 
-img = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
+final = cv2.cvtColor(final, cv2.COLOR_RGB2HSV)
 
 for i in range(0, row):
     for j in range(0, col):
-        h, s, v = img[i, j]
+        h, s, v = final[i, j]
         #print(h,s,v)
         hueTotal = hueTotal + h
         saturationTotal = saturationTotal + s
@@ -113,6 +113,7 @@ header = header + "\n"
 csv.write(header)
 
 dataKematangan = ([M,H,B,H2,S,V],[M,H,B,H2,S,V])
+print(dataKematangan)
 dataBerat = ([totalPixel],[totalPixel])
 
 ##########prediction

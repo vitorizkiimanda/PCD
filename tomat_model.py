@@ -31,6 +31,7 @@ trainBerat = trainBerat.drop(["berat"], axis=1)
 
 #membuat model menggunakan random forest
 modelKematangan = RandomForestClassifier()
+#modelKematangan = RandomForestClassifier(max_depth=2, random_state=0)
 modelKematangan.fit(trainKematangan,kematanganTrain)
 
 modelBerat = RandomForestRegressor()
@@ -70,4 +71,4 @@ pickle.dump(modelBerat, open(filename, 'wb'))
 # load the model from disk
 loaded_model = pickle.load(open(filename, 'rb'))
 beratPredict = loaded_model.predict(testBerat)  #nnti ini test : inputan baru
-print(beratPredict)
+#print(beratPredict)
