@@ -131,7 +131,7 @@ kematanganPredict = modelKematangan.predict(dataKematangan)  #nnti ini test : in
 if(kematanganPredict[0]==1): kematangan = "Sangat Matang"
 elif(kematanganPredict[0]==2): kematangan = "Matang"
 elif(kematanganPredict[0]==3): kematangan = "Cukup Matang"
-elif(kematanganPredict[0]==4): kematangan = "Setangah Matang"
+elif(kematanganPredict[0]==4): kematangan = "Setengah Matang"
 elif(kematanganPredict[0]==5): kematangan = "Mentah"
 
 print("prediksi tomat","'",imgname,"'")
