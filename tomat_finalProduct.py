@@ -12,7 +12,7 @@ import time
 from sklearn.metrics import confusion_matrix
 
 #########image preparation
-imgname = "TOMAT/tomat_test/1_1.jpg"
+imgname = "TOMAT/tomat_test/3_1.jpg"
 img = cv2.imread(imgname)
 
 # resizing
@@ -128,11 +128,11 @@ modelKematangan = pickle.load(open(filename, 'rb'))
 #prediction
 kematanganPredict = modelKematangan.predict(dataKematangan)  #nnti ini test : inputan baru
 
-if(kematanganPredict[0]==1): kematangan = "Sangat Matang"
-elif(kematanganPredict[0]==2): kematangan = "Matang"
+if(kematanganPredict[0]==5): kematangan = "Sangat Matang"
+elif(kematanganPredict[0]==4): kematangan = "Matang"
 elif(kematanganPredict[0]==3): kematangan = "Cukup Matang"
-elif(kematanganPredict[0]==4): kematangan = "Setengah Matang"
-elif(kematanganPredict[0]==5): kematangan = "Mentah"
+elif(kematanganPredict[0]==2): kematangan = "Setengah Matang"
+elif(kematanganPredict[0]==1): kematangan = "Mentah"
 
 print("prediksi tomat","'",imgname,"'")
 print("kematangan :",kematangan)
