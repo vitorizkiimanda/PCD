@@ -106,11 +106,6 @@ H2 = H2 / hue
 S = S / saturation
 V = V / value
 
-##########making csv of input image
-csv = open("tomatInput.csv", "w")
-header = '%s,%s,%s,%s,%s,%s,%s' % ("red", "green", "blue", "hue", "saturation", "value","pixels")
-header = header + "\n"
-csv.write(header)
 
 dataKematangan = ([M,H,B,H2,S,V],[M,H,B,H2,S,V])
 #print(dataKematangan)
